@@ -1,0 +1,72 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/create_blog.css' %}">
+
+<body>
+
+    <!-- </form>
+    <form method="POST">
+        {% csrf_token %}
+        {{form}}
+        <button>POST</button>
+
+    </form> -->
+    <header>
+        <h1>Feastfiles</h1>
+    </header>
+    <div class='one'>
+        <div>
+            <img src="../static/images/ls.jpeg" width='300px' height="250px">
+            <h2>White rice and chicken</h2>
+            <h3>#1500.oo</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+   
+        </div>
+        <div>
+            <img src="../static/images/jollef.jpg" width='300px' height="250px">
+            <h2>jollef Rice and Fried Chicken</h2>
+            <h3>#3000.oo</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+        </div>
+        <div>
+            <img src="../static/images/mocaroni.jpg" width='300px' height="250px">
+            <h2>Marcorni and Chicken</h2>
+            <h3>2000</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+        </div>
+        <div>
+            <img src="../static/images/4.jpg" width='300px' height="250px">
+            <h2>African Salad</h2>
+            <h3>#1500.oo</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+        </div>
+        <div>
+            <img src="../static/images/moimoi.jpg" width='300px' height="250px">
+            <h2>Moimoi and fish</h2>
+            <h3>#1000.00</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+        </div>
+        <div>
+            <img src="../static/images/white.jpg" width='300px' height="250px">
+            <h2>White soup</h2>
+            <h3>#5000.oo</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+        </div>
+        <div>
+            <img src="../static/images/ofada.jpg" width='300px' height="250px">
+            <h2>Ofada Rice and sauce</h2>
+            <h3>#3000.oo</h3>
+            <button><a href="{% url 'feastfiles:wait' %}">order</a></button>
+
+        
+
+
+    </div>
+</body>
+
+</html>

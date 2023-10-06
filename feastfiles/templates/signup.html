@@ -1,0 +1,30 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/signup.css' %}">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+
+    <div class="top">
+        <h1>Feastfiles</h1>
+
+    </div>
+    <div class="make">
+        <form method="POST">
+            {% csrf_token %}
+            {{form}}
+            <button type="submit"><a href="{% url 'feastfiles:post' %}">Add</a></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

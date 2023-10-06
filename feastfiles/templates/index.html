@@ -1,0 +1,59 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/main.css' %}">"
+    <title>foodblog</title>
+</head>
+
+
+<body>
+    <section class="section">
+        <header>
+            <h1 style="size: 50px;">FEASTFILES</h1>
+
+            <div class="blog">
+                <a href="{% url 'feastfiles:my_blog'%}">My_blog</a>
+            </div>
+
+
+
+
+        </header>
+
+        <div class="three">
+            <div class="one">
+
+                <div class="two">
+                    <h1>Hungrey?</h1>
+
+
+                    <h3>Then you are <br>the right place.</h3>
+
+
+
+                    <p> The good er provive is 100% organic<br>
+                        and hygenic that our best postive vives<br>
+                        that you are going to get
+                    </p>
+
+                    <button><a href="{% url 'feastfiles:signup' %}">Sign Up</a></button>
+
+                </div>
+
+
+
+                <img src="../static/images/ls.jpeg" width='300px' height="250px">
+
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

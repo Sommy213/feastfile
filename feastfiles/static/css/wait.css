@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family=Pooppins:wght@300;400;500;600;700;800;900&display=swap');
+
+h3 {
+    text-align: center;
+    color: rgb(85, 41, 41);
+
+
+
+}
+body{
+    background-color: rgb(170, 160, 160); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    border-radius: 4px;
+
+}
+
+.h {
+
+    margin-top: 16rem;
+
+
+
+}

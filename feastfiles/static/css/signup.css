@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2? family=Pooppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 4px;
+    background: transparent;
+    background-repeat: no-repeat;
+    
+
+
+}
+h1{
+    color: rgb(85, 41, 41);
+}
+
+form {
+
+    width: 36.5rem;
+    height: 2.5rem;
+    color: rgb(12, 0, 0);
+
+}
+body{
+    background-color: rgb(226, 207, 207);  
+
+}
+
+.make {
+    display: flex;
+    justify-content: center;
+    width: 200vh;
+
+    margin-top: 8rem;
+}
+.make button{
+    background-color: rgb(85, 41, 41);
+    width: 100px;
+    height: 30px;
+    margin-left: 10rem;
+    margin-top: 17px;
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 3px;
+    
+}
